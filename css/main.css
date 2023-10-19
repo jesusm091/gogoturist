@@ -1,0 +1,22 @@
+ /* seccion C O N T A C T O */
+ 
+ #contacto {
+     padding: 50px 50px;
+     background-color: #93dff1;
+ }
+ 
+ .map-responsive {
+     overflow: hidden;
+     padding-bottom: 40%;
+     position: relative;
+     height: 0;
+ }
+ 
+ .map-responsive iframe {
+     left: 10%;
+     top: 5%;
+     right: 0%;
+     height: 75%;
+     width: 80%;
+     position: absolute;
+ }
