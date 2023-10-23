@@ -54,8 +54,6 @@ body {
     color: #fff;
 }
 
-
-
 .img-tamano {
     height: 80vh;
 }
@@ -66,48 +64,46 @@ body {
     height: auto;
 }
 
- /* seccion C O N T A C T O */
- 
- #contacto {
-     padding: 50px 50px;
-     background-color: #93dff1;
- }
- 
- .map-responsive {
-     overflow: hidden;
-     padding-bottom: 40%;
-     position: relative;
-     height: 0;
- }
- 
- .map-responsive iframe {
-     left: 10%;
-     top: 5%;
-     right: 0%;
-     height: 75%;
-     width: 80%;
-     position: absolute;
- }
 
- /*  seccion nosotros*/
- 
- .carousel-inner img {
+/* seccion C O N T A C T O */
+
+#contacto {
+    padding: 50px 50px;
+    background-color: #93dff1;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 40%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 10%;
+    top: 5%;
+    right: 0%;
+    height: 75%;
+    width: 80%;
+    position: absolute;
+}
+
+
+/*  seccion nosotros*/
+
+.carousel-inner img {
     width: 100%;
     height: 100%;
 }
 
-
-
-.hero-description{
-        order: 1;
-        max-inline-size: 450px;
-        font-size: 20px;
-        color: white;
-        
+.hero-description {
+    order: 1;
+    max-inline-size: 450px;
+    font-size: 20px;
+    color: white;
 }
 
 #nosotros {
     padding: 50px 50px;
     background-color: #7fc78e;
 }
-
