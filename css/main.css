@@ -91,10 +91,7 @@ body {
 
 /*  seccion nosotros*/
 
-.carousel-inner img {
-    width: 100%;
-    height: 100%;
-}
+
 
 .hero-description {
     order: 1;
@@ -106,4 +103,52 @@ body {
 #nosotros {
     padding: 50px 50px;
     background-color: #7fc78e;
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        /* border: 1px solid red; */
+        display: flex;
+        gap: 32px;
+    }
+    .hero-description{
+        order: 1;
+        max-inline-size: 450px;
+    }
+    .carousel-inner {
+        order: 2;
+        text-align: end;
+        flex: 1;
+    }
+
+    .carousel-inner img {
+        inline-size: 500px;
+        block-size: 504pcx;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .carousel-inner img{
+        inline-size: 500px;
+        block-size: 504pcx;
+    }
+
+}
+
+.formulario{
+    margin-block-end: 80px;
+}
+.formulario p {
+    color: var(--white);
+    margin: 0;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .formulario {
+        align-self: stretch;
+        text-align: center;
+    }
+    
 }
